@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd Productivity_Hub && npm install && npm run build",
+  "outputDirectory": "Productivity_Hub/dist",
+  "installCommand": "cd Productivity_Hub && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "/api/$1"
+    }
+  ]
+} 

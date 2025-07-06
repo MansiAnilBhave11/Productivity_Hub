@@ -1,0 +1,13 @@
+{
+  "name": "productivity-hub-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd Productivity_Hub && npm install && npm run build",
+    "install": "cd Productivity_Hub && npm install",
+    "dev": "cd Productivity_Hub && npm run dev"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
